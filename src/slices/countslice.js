@@ -11,8 +11,7 @@ export const counterSlice = createSlice({
   },
   reducers: {
     myReducer: (state) => {
-    //   state.value += 1
-    console.log("Ami Ashif Number ",state);
+      state.value += 1
     },
   },
 })
