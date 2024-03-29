@@ -1,9 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit'
-import countslice from './slices/countslice'
+import { configureStore } from "@reduxjs/toolkit";
+import calculateSlice from "./slices/calculateSlice";
+
 export default configureStore({
   reducer: {
-
-    myFirstItem : countslice
-
+    calculation: calculateSlice
   },
-})
+});
